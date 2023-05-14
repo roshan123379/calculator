@@ -1,6 +1,6 @@
 .calculator{
     border: 1px solid black;
-    margin:2cm 21.365cm;
+    /* margin:2cm 21.365cm; */
     background-color: rgb(233,73,62);
 
 }
@@ -8,19 +8,20 @@
     justify-content: center;
 }
 input{
-    width: 7.5cm;
-    height: 3.5cm;
+    width: 24cm;
+    height: 10cm;
     border: none;
     background-color: rgb(233,73,62);
-    font-size: 30px;
+    font-size: 60px;
     text-align: end;
 }
 h3{
     text-align: center;
     background-color: rgb(24,22,22);
-    height: 1cm;
+    height: 4cm;
     color: aliceblue;
     font-family: sans-serif;
+    font-size: 60px;
 }
 .buttons{
     background-color: black;
@@ -29,21 +30,21 @@ h3{
 
 }
 button{
-    width: 1.8cm;
-    height: 1.8cm;
+    width: 6cm;
+    height: 6cm;
     border: none;
     color: white;
     background-color: black;
-    font-size: 18px;
-    border-radius: 10px;
+    font-size: 60px;
+    border-radius: 30px;
 
 }
 button:hover{
     background-color: rgb(233,73,62);
 }
 #clear{
-    width: 3.6cm;
+    width: 12cm;
 }
 #zero{
-    width: 3.6cm;
+    width: 12cm;
 }
